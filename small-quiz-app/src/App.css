@@ -1,0 +1,45 @@
+.ans-question-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.review-ans {
+  width: 20%;
+  border: 1px solid black;
+  height: 400px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.all-questions {
+  width: 55%;
+  border: 1px solid black;
+  height: 400px;
+  text-align: center;
+  padding: 3rem;
+  position: relative;
+}
+
+.button-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 5rem;
+}
+
+.arrow-button {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  padding: 0.5rem;
+}
