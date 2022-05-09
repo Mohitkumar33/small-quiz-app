@@ -37,7 +37,10 @@ function App() {
     <div className="App">
       <div className="ans-question-box">
         <div className="review-ans">
-          <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-like-web-flaticons-lineal-color-flat-icons-2.png" />
+          <img
+            alt="hello"
+            src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-like-web-flaticons-lineal-color-flat-icons-2.png"
+          />
           <div style={{ fontWeight: 500, fontSize: "1.3rem" }}>
             Review ans here
           </div>
@@ -70,17 +73,22 @@ function App() {
           ) : (
             <div>
               <div>
-                <img src="https://img.icons8.com/doodle/48/000000/question-mark--v1.png" />
+                <img
+                  alt="hello"
+                  src="https://img.icons8.com/doodle/48/000000/question-mark--v1.png"
+                />
               </div>
               <div className="button-heading">
                 {currentQuestion > 0 ? (
                   <img
+                    alt="hello"
                     src="https://img.icons8.com/flat-round/64/000000/left--v1.png"
                     className="arrow-button"
                     onClick={() => setCurrentQuestion((prev) => (prev -= 1))}
                   />
                 ) : (
                   <img
+                    alt="hello"
                     src="https://img.icons8.com/flat-round/64/000000/left--v1.png"
                     style={{ visibility: "hidden" }}
                     onClick={() => setCurrentQuestion((prev) => (prev -= 1))}
@@ -92,12 +100,14 @@ function App() {
                 </p>
                 {currentQuestion < 4 ? (
                   <img
+                    alt="hello"
                     src="https://img.icons8.com/flat-round/64/000000/arrow--v1.png"
                     className="arrow-button"
                     onClick={() => setCurrentQuestion((prev) => (prev += 1))}
                   />
                 ) : (
                   <img
+                    alt="hello"
                     src="https://img.icons8.com/flat-round/64/000000/arrow--v1.png"
                     style={{ visibility: "hidden" }}
                     onClick={() => setCurrentQuestion((prev) => (prev += 1))}
